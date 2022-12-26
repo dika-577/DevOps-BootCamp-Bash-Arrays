@@ -9,7 +9,7 @@ for letter in {a..z}; do
 
   mkdir "folder_$letter"
 
-  folder_names="$folder_names folder_$letter"
+  folder_names="$folder_names folder_$letter,"
 
   # Decrement the number of folders to create
   num_folders=$((num_folders-1))
